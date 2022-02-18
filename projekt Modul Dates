@@ -1,7 +1,7 @@
 #velké písmeno je celý měsíc, den (i v číslech) 
 #malé písmeno je zkrácený měsíc, den (i v číslech)
 #aby to fungovalo musí se psát (x.strftime ("%písmeno")
-
+#věci v závorkách říkají co je co 
 
 import datetime
 x = datetime.datetime.now ()
@@ -13,66 +13,68 @@ print ("==================================")
 print ((" - Pane/í zde je aktuální datum a čas PeePoHappy:"), x)
 print (" - (rok-den-měsíc | hodiny:minuty:sekundy:milisekundy)")
 
-print ()#mezery at to nějak vypadá
-print ()#mezery at to nějak vypadá
+print ()#mezery ať to nějak vypadá
+print ()#mezery ať to nějak vypadá
 
 print ("2. Užití aktuálního dne:")
 print ("========================")
 print ((" - Kámo aktuální den je:"), x.strftime ("%A"))
 print (" - (den)")
 
-print ()#mezery at to nějak vypadá
-print ()#mezery at to nějak vypadá
+print ()#mezery ať to nějak vypadá
+print ()#mezery ať to nějak vypadá
 
 print ("3. Užití aktuálního dne a času s / :")
 print ("====================================")
 print ((" - Zde máš ty žalude den a datum:"), x.strftime ("%A %d/%m/%Y"))
 print (" - (den slovy a datum {den/měsíc/rok})")
 
-print ()#mezery at to nějak vypadá
-print ()#mezery at to nějak vypadá
+print ()#mezery ať to nějak vypadá
+print ()#mezery ať to nějak vypadá
 
 print ("4. Užití zkráceného dne a měsíce slovy s časem:")
 print ("===============================================")
 print ((" - Tady to máš i ve zkrácený ty zkráčence:"), x.strftime ("%c %d/%m/%Y"))
 print (" - (zkr. den a měsíc čísli den | hodiny:minuty:sekundy | rok | den/měsíc/rok)")
 
-print ()#mezery at to nějak vypadá
-print ()#mezery at to nějak vypadá
+print ()#mezery ať to nějak vypadá
+print ()#mezery ať to nějak vypadá
 
 print ("5. Užití aktualního měsíce:")
 print ("===========================")
 print ((" - Dnes je tento krásný měsíc:"), x.strftime ("%B"))
 print (" - (měsíc)")
 
-print ()#mezery at to nějak vypadá
-print ()#mezery at to nějak vypadá
+print ()#mezery ať to nějak vypadá
+print ()#mezery ať to nějak vypadá
 
 print ("6. Užití aktuálního dne číselně:")
 print ("================================")
 print ((" - Dnes je:"), x.strftime ("%d"))
 print (" - (den je napsaný v číslech)")
 
-print ()#mezery at to nějak vypadá
-print ()#mezery at to nějak vypadá
+print ()#mezery ať to nějak vypadá
+print ()#mezery ať to nějak vypadá
 
 print ("7. Užití aktuálního dne a datumu jako Amíík:")
 print ("============================================")
 print ((" - Zde je to tvé datum ty babůte:"), x.strftime ("%A %m/%d/%Y"))
 print (" - (den slovy | měsíc/den/rok)")
 
-print ()#mezery at to nějak vypadá
-print ()#mezery at to nějak vypadá
+print ()#mezery ať to nějak vypadá
+print ()#mezery ať to nějak vypadá
 
 print ("8. Užití aktuálního zkráceného dne slovy:")
 print ("=========================================")
 print ((" - Tu máš den ve zkratce boa:"), x.strftime ("%a"))
 print (" - (zkráceně slovy den)")
 
-print ()#mezery at to nějak vypadá
-print ()#mezery at to nějak vypadá
+print ()#mezery ať to nějak vypadá
+print ()#mezery ať to nějak vypadá
 
 print ("9. Užití aktuálního zkráceného měsíce slovy:")
 print ("============================================")
 print ((" - Tu máš ten zkrácený měsíc ty pepego:"), x.strftime ("%b"))
-print (" - zkráceně slovy měsíc")
+print (" - (zkráceně slovy měsíc)")
+
+#Šrubař Daniel ET
